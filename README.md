@@ -18,6 +18,6 @@ Before using this project you should have installed the following:
  4. run the code in git CMD or git Bash with 
     [`npm run dev`](#code).
     
-###VIew 
+### View project
 You can view this project in dimensions 360 width x 640 height
 
