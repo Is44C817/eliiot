@@ -54,7 +54,7 @@ const Resumen = () =>{
                                 className="button-detalle"
                                 value={symbol === 'BTC-USD' ? '$ ' + price_24h 
                                 :  symbol === 'BTC-GBP' ? '£ ' + price_24h 
-                                : symbol === 'BTC-GBP'  ? '€ ' + price_24h 
+                                : symbol === 'BTC-EUR'  ? '€ ' + price_24h 
                                 : '...' }
                                 type="button"
                             />  
