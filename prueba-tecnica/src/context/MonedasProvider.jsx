@@ -22,6 +22,7 @@ const MonedasProvider = ({children}) => {
 
     const handleChangeCategoria = e =>{
         setCategoria(e.target.value)
+        console.log('clic en handle')
     }
 
     return(

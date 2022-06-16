@@ -31,15 +31,21 @@ const Resumen = () =>{
                     <div className="box-buttons">
                         <div className="div-grid">
 
-                        <select 
-                        onChange={handleChangeCategoria}
-                        value={categoria}
-                        name="bitcoins" id="bitcoins">
-                            <option value="">Selecciona una opción</option>
-                            <option value="BTC-USD">USD</option>
-                            <option value="BTC-GBP">GBP</option>
-                            <option value="BTC-EUR">EUR</option>
-                        </select>
+
+                <div className="infoBitcoin">
+                    <form className="formBitcoin"
+                    value={categoria}
+                    >   
+                        <input className="boxBitcoin" type="radio" name="bitcoins" value="BTC-USD" id="usdForm"/>
+                        <label className="labelBitcoin activo" for="usdForm">USD</label>
+                        
+                        <input className="boxBitcoin" type="radio" name="bitcoins" value="BTC-GBP" id="gbpForm"/>
+                        <label className="labelBitcoin" for="gbpForm">GBP</label>
+                        
+                        <input className="boxBitcoin" type="radio" name="bitcoins" value="BTC-EUR" id="eurForm"/>
+                        <label className="labelBitcoin" for="eurForm">EUR</label>   
+                    </form>
+                </div>
 
                         </div>
                 </div>
@@ -62,6 +68,15 @@ const Resumen = () =>{
                 </div>
 
                 <div className="space-actualizar"></div>
+
+                <input 
+                className="button-actualizar"
+                value="Actualizar"
+                type="button"
+                onChange={handleChangeCategoria}
+                />
+              
+                <div className="space-detalle"></div>
                         
             </div>
         </>
