@@ -8,9 +8,9 @@ Before using this project you should have installed the following:
 
 ### Steps
 1. clone the repository in your computer using:
-  [`https://github.com/Is44C817/eliiot.git`](#code). or [`git@github.com:Is44C817/eliiot.git`](#code)
+  [`https://github.com/Is44C817/altlantia.git`](#code). or [`git@github.com:Is44C817/altlantia.git`](#code)
 
-2. Move to the eliiot/prueba-tecnica directory.
+2. Move to the altlantia/atlantia-prueba directory.
 
 3. Install react libraries using:
   - [`npm install`](#code).
@@ -18,6 +18,3 @@ Before using this project you should have installed the following:
  4. run the code in git CMD or git Bash with 
     [`npm run dev`](#code).
     
-### View project
-You can view this project in dimensions 360 width x 640 height
-
